@@ -1,0 +1,41 @@
+body {
+    background-color: #fabea7;
+}
+
+h3, h2,h4, p, label {
+    color: #1b262c;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 90px;
+}
+
+h3 span {
+    font-size: 40px;
+}
+
+h4 {
+    top: 85px;
+    right: 40px;
+}
+
+label {
+    font-size: 25px;
+}
+
+img {
+    height: 200px;
+}
+
+.container-fluid {
+    margin-top: 90px;
+    width: 500px;
+}
+
+.icon {
+    width: 400px;
+}
+
+
+

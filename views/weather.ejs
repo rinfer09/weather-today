@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container-fluid text-center">
+        <h1>Weather Today</h1>
+        <%- include("form") -%> 
+        <h2><%= weatherView.name %> </h2>
+        <h3><%= weatherView.main.temp %>°<span>c</span></h3>
+        <div class="mx-auto icon">
+            <img class="float-left" src="<%= icon %>" alt="weather-icon">
+            <h4 class="position-relative"><%= weatherView.weather[0].main %> </h4>
+        </div>
+        
+        
+    </div>
+<script>
+</script>
+</body>
+</html>
